@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA32DE76231DE119002DBB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DE75231DE119002DBB4D /* AppDelegate.swift */; };
-		DA32DE78231DE119002DBB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DE77231DE119002DBB4D /* ViewController.swift */; };
+		DA32DE78231DE119002DBB4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DE77231DE119002DBB4D /* HomeViewController.swift */; };
 		DA32DE7B231DE119002DBB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32DE79231DE119002DBB4D /* Main.storyboard */; };
 		DA32DE7D231DE11A002DBB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA32DE7C231DE11A002DBB4D /* Assets.xcassets */; };
 		DA32DE80231DE11A002DBB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA32DE7E231DE11A002DBB4D /* LaunchScreen.storyboard */; };
@@ -16,6 +16,7 @@
 		DA32DE96231DE11B002DBB4D /* GoodEatinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DE95231DE11B002DBB4D /* GoodEatinsUITests.swift */; };
 		DA32DEA4231DE194002DBB4D /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DEA3231DE194002DBB4D /* DataSet.swift */; };
 		DA65883A23209C9D0089C4BF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA65883923209C9D0089C4BF /* CategoryCell.swift */; };
+		DA83207E2321D92A00280C51 /* RecipesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */; };
 		DAB0FAA1231DE2190073D665 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA0231DE2190073D665 /* FoodCategory.swift */; };
 		DAB0FAA3231DE26B0073D665 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA2231DE26B0073D665 /* Recipe.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +41,7 @@
 /* Begin PBXFileReference section */
 		DA32DE72231DE119002DBB4D /* GoodEatins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodEatins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA32DE75231DE119002DBB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA32DE77231DE119002DBB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA32DE77231DE119002DBB4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA32DE7A231DE119002DBB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA32DE7C231DE11A002DBB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA32DE7F231DE11A002DBB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		DA32DE97231DE11B002DBB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA32DEA3231DE194002DBB4D /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		DA65883923209C9D0089C4BF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionViewController.swift; sourceTree = "<group>"; };
 		DAB0FAA0231DE2190073D665 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		DAB0FAA2231DE26B0073D665 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +158,8 @@
 		DAB0FA9F231DE1F80073D665 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA32DE77231DE119002DBB4D /* ViewController.swift */,
+				DA32DE77231DE119002DBB4D /* HomeViewController.swift */,
+				DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,8 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA83207E2321D92A00280C51 /* RecipesSelectionViewController.swift in Sources */,
 				DA32DEA4231DE194002DBB4D /* DataSet.swift in Sources */,
-				DA32DE78231DE119002DBB4D /* ViewController.swift in Sources */,
+				DA32DE78231DE119002DBB4D /* HomeViewController.swift in Sources */,
 				DA32DE76231DE119002DBB4D /* AppDelegate.swift in Sources */,
 				DAB0FAA1231DE2190073D665 /* FoodCategory.swift in Sources */,
 				DAB0FAA3231DE26B0073D665 /* Recipe.swift in Sources */,
