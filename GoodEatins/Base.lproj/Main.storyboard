@@ -77,20 +77,66 @@
             </objects>
             <point key="canvasLocation" x="1528" y="777"/>
         </scene>
-        <!--Recipes Selection View Controller-->
+        <!--Recipes Selection-->
         <scene sceneID="UBF-QA-tEs">
             <objects>
-                <viewController id="UzE-EF-NZ0" customClass="RecipesSelectionViewController" customModule="GoodEatins" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Recipes Selection" id="UzE-EF-NZ0" customClass="RecipesSelectionViewController" customModule="GoodEatins" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lLU-ka-jbx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LJK-nF-4fa">
+                                <rect key="frame" x="0.0" y="140" width="375" height="638"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2Ir-V1-GBu">
+                                    <size key="itemSize" width="151" height="133"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="recipeCell" id="aSG-Rf-UIT" customClass="RecipeCell" customModule="GoodEatins" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RLZ-UP-aYs">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="RLZ-UP-aYs" secondAttribute="bottom" id="65z-vu-wyt"/>
+                                            <constraint firstItem="RLZ-UP-aYs" firstAttribute="leading" secondItem="aSG-Rf-UIT" secondAttribute="leading" id="Drf-vu-qzW"/>
+                                            <constraint firstAttribute="trailing" secondItem="RLZ-UP-aYs" secondAttribute="trailing" id="KfQ-8s-PdI"/>
+                                            <constraint firstItem="RLZ-UP-aYs" firstAttribute="top" secondItem="aSG-Rf-UIT" secondAttribute="top" id="YyK-NY-rPV"/>
+                                        </constraints>
+                                        <size key="customSize" width="150" height="150"/>
+                                        <connections>
+                                            <outlet property="recipeImage" destination="RLZ-UP-aYs" id="RvO-EM-fZE"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="glm-I7-DLN" firstAttribute="trailing" secondItem="LJK-nF-4fa" secondAttribute="trailing" id="Oei-ox-O6I"/>
+                            <constraint firstItem="LJK-nF-4fa" firstAttribute="top" secondItem="glm-I7-DLN" secondAttribute="top" id="Qay-79-8Zp"/>
+                            <constraint firstItem="LJK-nF-4fa" firstAttribute="leading" secondItem="glm-I7-DLN" secondAttribute="leading" id="Wjs-Dn-LA7"/>
+                            <constraint firstItem="glm-I7-DLN" firstAttribute="bottom" secondItem="LJK-nF-4fa" secondAttribute="bottom" id="jcR-sM-X6o"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="glm-I7-DLN"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="LJK-nF-4fa" id="dXx-yV-sto"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7c-Jy-Gvn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2551" y="777"/>
+            <point key="canvasLocation" x="2549.5999999999999" y="776.60098522167493"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="595-zP-AW1">

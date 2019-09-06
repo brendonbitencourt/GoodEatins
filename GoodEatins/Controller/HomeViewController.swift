@@ -13,7 +13,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tableView: UITableView!
     
     let data = DataSet()
-    var categoryToPass: String?
+    var categoryToPass: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()

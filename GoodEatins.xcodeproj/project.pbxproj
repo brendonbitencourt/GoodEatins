@@ -17,6 +17,7 @@
 		DA32DEA4231DE194002DBB4D /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32DEA3231DE194002DBB4D /* DataSet.swift */; };
 		DA65883A23209C9D0089C4BF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA65883923209C9D0089C4BF /* CategoryCell.swift */; };
 		DA83207E2321D92A00280C51 /* RecipesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */; };
+		DA8320802321EC6A00280C51 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83207F2321EC6A00280C51 /* RecipeCell.swift */; };
 		DAB0FAA1231DE2190073D665 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA0231DE2190073D665 /* FoodCategory.swift */; };
 		DAB0FAA3231DE26B0073D665 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA2231DE26B0073D665 /* Recipe.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		DA32DEA3231DE194002DBB4D /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		DA65883923209C9D0089C4BF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionViewController.swift; sourceTree = "<group>"; };
+		DA83207F2321EC6A00280C51 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		DAB0FAA0231DE2190073D665 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		DAB0FAA2231DE26B0073D665 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				DA65883923209C9D0089C4BF /* CategoryCell.swift */,
+				DA83207F2321EC6A00280C51 /* RecipeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				DA83207E2321D92A00280C51 /* RecipesSelectionViewController.swift in Sources */,
 				DA32DEA4231DE194002DBB4D /* DataSet.swift in Sources */,
 				DA32DE78231DE119002DBB4D /* HomeViewController.swift in Sources */,
+				DA8320802321EC6A00280C51 /* RecipeCell.swift in Sources */,
 				DA32DE76231DE119002DBB4D /* AppDelegate.swift in Sources */,
 				DAB0FAA1231DE2190073D665 /* FoodCategory.swift in Sources */,
 				DAB0FAA3231DE26B0073D665 /* Recipe.swift in Sources */,
