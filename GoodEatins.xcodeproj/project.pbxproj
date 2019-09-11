@@ -20,6 +20,7 @@
 		DA8320802321EC6A00280C51 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83207F2321EC6A00280C51 /* RecipeCell.swift */; };
 		DAB0FAA1231DE2190073D665 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA0231DE2190073D665 /* FoodCategory.swift */; };
 		DAB0FAA3231DE26B0073D665 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0FAA2231DE26B0073D665 /* Recipe.swift */; };
+		DAF43BD5232885D60063C0C9 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF43BD4232885D60063C0C9 /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DA83207F2321EC6A00280C51 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		DAB0FAA0231DE2190073D665 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		DAB0FAA2231DE26B0073D665 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		DAF43BD4232885D60063C0C9 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				DA32DE77231DE119002DBB4D /* HomeViewController.swift */,
 				DA83207D2321D92A00280C51 /* RecipesSelectionViewController.swift */,
+				DAF43BD4232885D60063C0C9 /* RecipeDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA83207E2321D92A00280C51 /* RecipesSelectionViewController.swift in Sources */,
+				DAF43BD5232885D60063C0C9 /* RecipeDetailViewController.swift in Sources */,
 				DA32DEA4231DE194002DBB4D /* DataSet.swift in Sources */,
 				DA32DE78231DE119002DBB4D /* HomeViewController.swift in Sources */,
 				DA8320802321EC6A00280C51 /* RecipeCell.swift in Sources */,
